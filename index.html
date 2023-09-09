@@ -1,0 +1,31 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+	<h1>Mi sitio web</h1>
+	<h2>Alta de usuarios</h2>
+	<form action="" method="POST">
+		<div id="form1">
+			<div>
+				<div>
+					<span>Nombre</span><input type="text" name="nombres[]" autocompletar="off"/>
+				</div>
+				<div>	
+					<span>Apellido</span><input type="text" name="Apellidos[]" autocompletar="off"/>
+				</div>
+				<div>	
+					<span>Correo</span><input type="email" name="Correo[]" autocompletar="off"/>
+				</div>
+
+			</div>
+		</div>
+	<input type="button" value="+" id="agregar" /><input type="submit" value="Cargar Usuario" />
+	</form>
+	<footer> </footer>
+</body>
+</html>
